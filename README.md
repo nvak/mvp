@@ -51,6 +51,7 @@ This table details the rating points each player in a handball game receives:
 | Goal made | Goal received |
 |--|--|
 | 2 | -1 |
+
 E.g. a player scored 20 goals and his team received 7 goals will be granted 33 rating  
 points (2*20 - 1*7 = 3).  
 The winner team is the one with most goals made.
