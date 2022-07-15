@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class FileScanner {
-    public static List<String>  scan(String path) {
+    public static List<String> scan(String path) {
         try (Stream<Path> files = Files.list(Path.of(path))) {
             return files.filter(f -> !Files.isDirectory(f))
                     .map(Path::getFileName)

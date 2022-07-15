@@ -24,6 +24,7 @@ public class StorageDaoImpl implements StorageDao {
         for (Map.Entry<Player, Integer> entry : entries) {
             if (entry.getValue() > maxValue) {
                 mvp = entry.getKey();
+                maxValue = entry.getValue();
             }
         }
         return mvp;
